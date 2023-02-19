@@ -1,0 +1,35 @@
+{
+  "header_message": "All you need\nis stay at home.",
+  "upload_image": "Upload image",
+  "retry": "Retry",
+  "re_test": "Re-test",
+  "something_went_wrong": "Some thing went wrong!",
+  "no_results_message": "Sorry No result found now. Please try later.",
+  "home": "Home",
+  "reports": "Reports",
+  "statistics": "Statistics",
+  "affected": "Affected",
+  "deaths": "Deaths",
+  "recovered": "Recovered",
+  "search_country": "Search for country",
+  "countries": "Countries",
+  "select_country": "Select country",
+  "percentage_country": "Percentage cases per country",
+
+
+  "hello": "Hello",
+
+  "already_replied": "Already replied",
+  "phone_num_used": "Phone number used",
+  "wrong_credential": "Invalid e-mail or password",
+  "username_used": "Username used",
+  "constraint_failed": "Constraint failed",
+  "email_exists": "Email already exists",
+  "username_exists": "Username already exists",
+  "internet_connection_error": "Internet connection error happened. Please try later",
+  "connection_timeout": "Connection timeout. Please try later",
+  "receive_timeout": "Receive timeout. Please try later",
+  "send_timeout": "Send timeout. Please try later",
+  "request_canceled": "Request was canceled",
+  "not_found": "Not found. This target is not what you are looking for."
+}

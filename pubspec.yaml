@@ -1,0 +1,89 @@
+name: covid19_assistant
+description: A new Flutter application.
+
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.20.0-nullsafety.3
+  rxdart: ^0.24.1
+  dio: ^3.0.10
+  image_picker: ^0.6.7+7
+  permission_handler: ^5.0.1+1
+  multi_image_picker: ^4.7.14
+  http: ^0.12.2
+  http_parser: ^3.1.4
+  fluttertoast: ^7.1.1
+  lottie: 0.7.0+1
+  shared_preferences: ^0.5.4+1
+  flutter_localizations:
+    sdk: flutter
+  font_awesome_flutter: 8.12.0
+  cached_network_image: any
+  flutter_staggered_grid_view: 0.3.0
+  shimmer: ^1.1.1
+  flutter_staggered_animations: any
+  intl: 
+  dropdown_search: ^0.4.5
+  google_maps_flutter: any
+  location: ^3.0.0
+  ffi: ^1.0.0
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/lang/
+    - assets/icons/
+    - assets/animations/
+    - assets/images/
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
